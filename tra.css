@@ -1,0 +1,70 @@
+aside{
+    width: 0px;
+    height: 0px;
+    float:right;
+    overflow:visible;
+    margin-left: 90%;
+    margin-bottom: 0px;
+    margin-right: -180px;
+    position:static;
+    
+}
+
+.coca{
+    width: 270px;
+    height: 450px;
+    float: left;
+}
+.mac{
+    width: 270px;
+    height: 380px;
+    float: left;
+    margin-top: 150px;
+
+}
+
+/*FOOTER 1*/
+.piePagina{
+    background: rgb(230, 142, 142);
+    color: white;
+    left: 0%;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    top: 500px;
+}
+
+.contenido {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+
+.piePagina ul{
+    list-style: none;
+    text-align: center;
+}
+.piePagina a{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    
+}
+.piePagina p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+/*FOOTER 1*/
+.section8{
+    width: 100%;
+    height: 100px;
+    background-color:  #ffffffda;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+}

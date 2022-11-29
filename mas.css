@@ -1,0 +1,100 @@
+aside{
+    width: 0px;
+    height: 0px;
+    float:right;
+    overflow:visible;
+    margin-left: 90%;
+    margin-bottom: 0px;
+    margin-right: -180px;
+    position:static;
+    
+}
+.perrosinr{
+    width: 220px;
+    height: 170px;
+    float: right;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-left:30px;
+    margin-right: 40px;
+}
+.sinraza{
+    width: 240px;
+    height: 160px;
+    float: left;
+    margin-right: 0px;
+    margin-top: 30px;
+    margin-left:30px;
+    margin-right: 40px;
+}
+
+.mesi2{
+    width: 270px;
+    height: 450px;
+    float: left;
+}
+.mesi1{
+    width: 270px;
+    height: 380px;
+    float: left;
+
+}
+
+/*FOOTER 1*/
+.piePagina{
+    clear: both;
+    background: rgb(230, 142, 142);
+    margin-top: 35px;
+    color: white;
+    padding: 10px 0;
+    left: 0%;
+    z-index: 100;
+    align-items: center;
+    position: relative;
+}
+.piePagina ul{
+    list-style: none;
+    text-align: center;
+}
+.piePagina a{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    
+}
+.piePagina p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+/*FOOTER 1*/
+.piePagina{
+    clear: both;
+    background: rgb(230, 142, 142);
+    margin-top: 35px;
+    color: white;
+    padding: 10px 0;
+    left: 0%;
+    z-index: 100;
+    align-items: center;
+    position: relative;
+}
+.piePagina ul{
+    list-style: none;
+    text-align: center;
+}
+.piePagina a{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    
+}
+.piePagina p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}

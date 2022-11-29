@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:wght@200&display=swap');
+.contenedor{
+    width: 85%;
+    max-width: 850px;
+    margin:0 auto;  
+    
+}
+
+
+.main{
+    padding-top: 150px;
+}
+
+/*LIST PRECIOS*/
+.precios{
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.precios ul{
+    list-style: none;
+    text-align: center;
+}
+
+.precios ul li{
+    display: inline-block;
+}
+
+.precios ul li figure{
+    padding: 0px 0px;
+}
+
+
+
+/*DATOS PRECIOS CAJA 1*/
+
+.datos_precios1{
+    
+    align-items: center;
+    height: 360px;
+}
+
+.datos_precios1 figure{
+    position: relative;
+    width: 237px;
+    height: 357px;
+    overflow: hidden;
+    border-radius: 6px;
+    
+}
+
+.datos_precios1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-out;
+}
+
+.datos_precios1 figure .capa1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(249, 156, 171, 0.7);
+    transition: all 0.5s ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.datos_precios1 figure .capa1 h3{
+    font-size: 35px;
+    line-height: normal;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 200px;
+    transition: all 0.5s ease-out;
+    
+}
+
+.datos_precios1 figure .capa1 p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 300;
+    margin: auto;
+}
+
+.datos_precios1 figure:hover > img{
+    transform: scale(1.3);
+}
+
+.datos_precios1 figure:hover > .capa1{
+    opacity: 1;
+    visibility: visible;
+}
+
+.datos_precios1 figure:hover > .capa1 h3{
+    margin-top: 75px;
+    margin-bottom: 40px;
+}
+
+/*FOOTER 1*/
+.piePagina{
+    clear: both;
+    background: rgb(230, 142, 142);
+    margin-top: 40px;
+    color: white;
+    padding: 10px 0;
+    left: 0%;
+    z-index: 100;
+    align-items: center;
+    position: relative;    
+}
+.piePagina ul{
+    list-style: none;
+    text-align: center;
+    
+}
+.piePagina a{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+   
+}
+.piePagina p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    
+}
+/*FOOTER 1*/
